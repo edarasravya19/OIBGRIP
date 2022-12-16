@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="color.css">
+	</head>
+<body>
+	<div class="col-md-6">
+		<h1 class="text-primary" align="center"> Temperature Converter</h1>
+		<hr style="border-left-color:2px dotted #ccc;" />
+		<div class="col-md-10">	
+			
+			<div align="center" style="border:3px solid #11a; background-color:#A555EC;padding:80px; border-radius:20px; width:500px; margin-left: 400px;">
+				<div class="alert alert-info" style="font-size:20px; margin-bottom:10px;"><b>Fahrenheit to Celcius</b></div>
+				<div class="form-group" >
+					<input type="number" id="fahrenheit1" placeholder="Enter number here"
+class="form-control" style=" padding: 20px; border:2px solid black; background-color:#F3CCFF; margin-bottom:100px;" />
+				</div><center><button class="btn btn-success" onclick="convertToCe();" style=" margin-bottom:100px;">Convert</button></center>
+				<div class="form-group" id="celcius1" style="font-size: 40px;">
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="col-md-10">
+			
+			<div align="center" style="border:3px solid #11a; padding:80px; border-radius:20px;background-color:#A555EC; width:500px; margin-left:400px;"><div class="alert alert-info" style="font-size:20px;">Celcius to Fahrenheit</div>
+				<div class="form-group">
+					<input type="number" id="celcius2" placeholder="Enter number here" class="form-control"style=" padding: 20px; border:2px solid black; margin-bottom:100px; background-color:#F3CCFF;" />
+				</div><center><button class="btn btn-success" onclick="convertToFa();"style=" margin-bottom:100px;">Convert</button></center>
+				<div class="form-group"  id="fahrenheit2" style="font-size: 40px;">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="tem.js"></script>
+</body>
+</html>
